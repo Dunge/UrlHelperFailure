@@ -1,0 +1,14 @@
+﻿@using Microsoft.AspNetCore.Routing
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+1: @Url.Action("Test", "Test", new RouteValueDictionary { { "enterpriseId", 1 } }) <br />
+2: @Url.Action("Test", "Test", new RouteValueDictionary { }) <br />
+3: @Url.Action("Test", "Test", new RouteValueDictionary { { "enterpriseId", null } }) <br />
+<br />
+4: @Url.Action("TestQuery", "Test", new RouteValueDictionary { { "enterpriseId", 1 }, { "test", 2 } }) <br />
+5: @Url.Action("TestQuery", "Test", new RouteValueDictionary { { "test", 2 } }) <br />
+6: @Url.Action("TestQuery", "Test", new RouteValueDictionary { { "enterpriseId", null }, { "test", 2 } }) <br />

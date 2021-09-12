@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31320.298
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlHelperFailure", "UrlHelperFailure\UrlHelperFailure.csproj", "{D8317E7F-7999-45B8-8C65-800CCC10193E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8317E7F-7999-45B8-8C65-800CCC10193E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8317E7F-7999-45B8-8C65-800CCC10193E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8317E7F-7999-45B8-8C65-800CCC10193E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8317E7F-7999-45B8-8C65-800CCC10193E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2DED9C0C-1065-4A4E-A970-1E4C0E238933}
+	EndGlobalSection
+EndGlobal
